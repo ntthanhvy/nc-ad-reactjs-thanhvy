@@ -104,4 +104,4 @@ dist
 .tern-port
 
 # personal test directory
-./test 
+test/
