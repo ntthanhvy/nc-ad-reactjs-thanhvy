@@ -9,5 +9,5 @@ arr = [1, 2, 3];
 obj = { id: 1, code: "abcd12345" };
 
 // type-err
-str  = 0;
-arr= [1, "2"],
+// str  = 0;
+// arr= [1, "2"],
