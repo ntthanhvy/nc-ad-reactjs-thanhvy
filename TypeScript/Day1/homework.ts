@@ -38,7 +38,7 @@ class WorkStation extends Computer implements IWorkStation {
 
 // 3 functions
 
-function draw(vertexX: number, vertexY: number, callback: any) {
+function draw(vertexX: number, vertexY: number, callback: (verX: number, verY: number) => number): number {
   return callback(vertexX * vertexY);
 }
 
